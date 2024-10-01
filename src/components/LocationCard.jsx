@@ -1,8 +1,8 @@
 import React from 'react'
 
-const LocationCard = ({ eventTitle, eventTime, eventLocation, eventDescription, eventGMapsLink }) => {
+const LocationCard = ({ eventTitle, eventTime, eventLocation, eventDescription, eventGMapsLink, eventContact }) => {
   return (
-    <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white">
+    <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white font-serif">
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{eventTitle}</div>
         <p className="text-gray-700 text-base mb-2">
@@ -13,6 +13,9 @@ const LocationCard = ({ eventTitle, eventTime, eventLocation, eventDescription, 
         </p>
       </div>
       <div className="px-6 pt-4 pb-2">
+        <p className="text-gray-700 text-base mb-2">
+          <span className="font-semibold">Contact:</span> {eventContact}
+        </p>
         <p className="text-gray-700 text-base mb-2">
           <span className="font-semibold">Location:</span> {eventLocation}
         </p>

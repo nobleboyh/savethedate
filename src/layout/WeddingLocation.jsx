@@ -17,6 +17,7 @@ const WeddingLocation = () => {
                 eventLocation="Dia village cultural house, Thanh Oai, Ha Noi"
                 eventDescription="Celebrate with us over food, drinks, and dancing."
                 eventGMapsLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.3748914837697!2d105.76226561116266!3d20.89723169220208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31344d38d1705f01%3A0xa43be08362c167ca!2zTmjDoCBWxINuIEjDs2EgVGjDtG4gxJDDrGE!5e0!3m2!1sen!2s!4v1727685511699!5m2!1sen!2s"
+                eventContact="0338953875"
             />
             <LocationCard 
                 eventTitle="Wedding ceremony"
@@ -24,6 +25,7 @@ const WeddingLocation = () => {
                 eventLocation="Van Hoa Restaurant - 98 Thai Thinh, Dong Da, Ha Noi"
                 eventDescription="Join us for our beautiful wedding ceremony as we exchange vows and celebrate our love. We look forward to sharing this special moment with you."
                 eventGMapsLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6245232761707!2d105.81901331116505!3d21.00768308842072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac824d9b4797%3A0xb3f80263fd535c9e!2zVHJ1bmcgdMOibSBUaeG7h2MgJiBT4buxIGtp4buHbiBW4bqhbiBIb2EgVGjDoWkgVGjhu4tuaA!5e0!3m2!1sen!2s!4v1727685747848!5m2!1sen!2s"
+                eventContact="0376286448"
             />
         </div>
     </section>
