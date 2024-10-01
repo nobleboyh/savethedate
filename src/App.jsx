@@ -14,7 +14,7 @@ function App() {
     <div className="font-mono">
       <HeaderLayout mainButtonClickHandle={handleMainButton}/>
       <section ref={imageSection} 
-        className="w-screen md:min-h-screen bg-transparent py-10">
+        className="md:min-h-screen bg-transparent py-10">
         <ImageSliderLayout/>
       </section>
       <WeddingLocation/>

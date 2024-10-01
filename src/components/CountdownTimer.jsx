@@ -31,20 +31,20 @@ const CountdownTimer = ({ targetDate }) => {
     if (!timeLeft[interval]) {
       return (
         <span key={interval} className="mx-2">
-          <span className="font-bold text-3xl">0</span> {interval}{" "}
+          <span className="font-bold text-2xl md:text-3xl ">0</span> {interval}{" "}
         </span>
       );
     }
 
     return (
       <span key={interval} className="mx-2">
-        <span className="font-bold text-3xl">{timeLeft[interval]}</span> {interval}{" "}
+        <span className="font-bold text-2xl md:text-3xl ">{timeLeft[interval]}</span> {interval}{" "}
       </span>
     );
   });
 
   return (
-    <div className="text-white text-2xl">
+    <div className="text-white text-2xl md:text-3xl ">
       {timerComponents.length ? timerComponents : <span>Time's up!</span>}
     </div>
   );

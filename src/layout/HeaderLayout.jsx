@@ -4,7 +4,7 @@ const HeaderLayout = ({mainButtonClickHandle}) => {
   const [content, setContent] = useState(saveDate);
   
   return (
-    <header className="w-screen h-screen bg-header-bg bg-cover bg-center bg-no-repeat flex justify-center items-center flex-col">
+    <header className="h-screen bg-header-bg bg-cover bg-center bg-no-repeat flex justify-center items-center flex-col">
         {/* <img src={HeaderImage}></img> */}
         <p className="text-4xl text-white mb-8 font-semibold">
           Bui Hoang & Luu Thanh

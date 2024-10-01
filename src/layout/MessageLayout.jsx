@@ -23,7 +23,7 @@ const MessageLayout = () => {
   }
 
   return (
-    <div className="w-screen flex justify-center items-center p-5 ">
+    <div className="flex justify-center items-center p-5 ">
       <form onSubmit={handleSubmit} className="bg-[#f9f2e8] p-8 rounded-lg shadow-md w-3/4" style={{ fontFamily: 'Brush Script MT, cursive' }}>
         <h2 className="text-3xl mb-6 text-center">Message to Hoang & Thanh</h2>
         <div className="mb-4">
