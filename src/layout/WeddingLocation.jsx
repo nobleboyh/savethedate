@@ -4,7 +4,7 @@ import CountdownTimer from '../components/CountdownTimer'
 
 const WeddingLocation = () => {
   return (
-    <section className="w-screen md:h-screen  py-10  bg-gradient-to-r from-yellow-400 to-orange-400">
+    <section className="w-screen md:min-h-screen  py-10  bg-gradient-to-r from-yellow-400 to-orange-400">
     <div className="w-full text-center mb-10">
         <h2 className="text-4xl font-bold text-white mb-4">Countdown to Our Big Day</h2>
         <CountdownTimer targetDate="2024-10-05T11:00:00" />
